@@ -1,0 +1,14 @@
+{
+    "name": "root/htdocs",
+    "description": "Test",
+    "license": "GPL",
+    "minimum-stability": "dev",
+    "require": {
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "App/Src"
+        }
+    }
+}
